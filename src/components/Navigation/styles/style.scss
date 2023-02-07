@@ -1,0 +1,12 @@
+@import '../../../common/global';
+
+.navigation {
+    padding: 20px;
+
+    &__link {
+        text-decoration: none;
+        color: $white;
+        margin: 0 10px;
+        font-size: 18px;
+    }
+}

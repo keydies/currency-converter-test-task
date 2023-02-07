@@ -11,16 +11,9 @@
         padding: 20px;
         font-style: italic;
         letter-spacing: 1px;
-    }
-
-    &__links {
-        padding: 20px;
-    }
-
-    &__link {
-        text-decoration: none;
-        color: $white;
-        margin: 0 10px;
-        font-size: 18px;
+        &-link {
+            text-decoration: none;
+            color: $white;
+        }
     }
 }

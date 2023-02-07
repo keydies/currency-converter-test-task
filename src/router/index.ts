@@ -7,7 +7,6 @@ export interface AppRoute {
     path: string;
     element: () => JSX.Element;
     title: string;
-    icon?: string | undefined;
     id: string;
 }
 
@@ -29,20 +28,17 @@ export const routes: AppRoute[] = [
         path: RouteNames.CONVERTER,
         element: Converter,
         title: RouteTitles.CONVERTER,
-        icon: '',
     },
     {
         id: uid(),
         path: RouteNames.ALL_EXCHANGE_RATES,
         element: Rates,
         title: RouteTitles.ALL_EXCHANGE_RATES,
-        icon: '',
     },
     {
         id: uid(),
         path: RouteNames.NOT_FOUND,
         element: NotFound,
         title: RouteTitles.NOT_FOUND,
-        icon: '',
     },
 ];

@@ -1,0 +1,50 @@
+@import '../../../common/global';
+
+.converter {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+    flex-direction: column;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input {
+        padding: 15px;
+        border-radius: 26px;
+        outline: none;
+        background: rgba(0, 18, 64, 0.04);
+        border: none;
+        &::placeholder {
+            color: $darkBlue;
+            opacity: 0.6;
+        }
+    }
+    &__instruction {
+        font-size: 18px;
+        padding: 20px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    &__in {
+        padding: 10px 0 10px 5px;
+    }
+    &__button {
+        background-color: $red;
+        padding: 10px 20px;
+        border-radius: 28px;
+        border: none;
+        color: $white;
+        &:hover {
+            cursor: pointer;
+        }
+        &__container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    }
+}
