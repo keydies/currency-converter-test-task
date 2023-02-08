@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
-import { RouteNames, RouteTitles } from '../../router';
+
+import { RouteNames } from '../../router';
+
 import { Navigation } from '../Navigation';
 
 import './styles/style.scss';

@@ -11,6 +11,8 @@
         padding: 20px;
         font-style: italic;
         letter-spacing: 1px;
+        display: flex;
+        align-items: center;
         &-link {
             text-decoration: none;
             color: $white;

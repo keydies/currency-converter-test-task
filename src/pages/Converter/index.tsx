@@ -22,7 +22,7 @@ export const Converter = () => {
         const amountOfBaseCode = Number(baseCodeInput.split(' ')[0]);
         const baseCode = baseCodeInput.split(' ').at(-1)?.toUpperCase();
         const targetCode = targetCodeInput.toUpperCase();
-        dispatch(RatesThunks.PairConversion(baseCode!, targetCode, amountOfBaseCode));
+        dispatch(RatesThunks.pairConversion(baseCode!, targetCode, amountOfBaseCode));
         setIsResultVisible(true);
     };
 
