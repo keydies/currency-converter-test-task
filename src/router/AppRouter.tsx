@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { AppRoute, routes } from '.';
-import { Rates } from '../pages/Rates';
+
+import { routes } from '.';
 
 export const AppRouter = () => {
     return (

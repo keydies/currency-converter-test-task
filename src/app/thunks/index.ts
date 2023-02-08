@@ -1,6 +1,7 @@
-import { RatesActionCreators } from './../actions/rates-ac';
 import { AxiosError } from 'axios';
+
 import { AppDispatch } from '../store';
+import { RatesActionCreators } from './../actions/rates-ac';
 import { Api } from './agent';
 
 export const RatesThunks = {

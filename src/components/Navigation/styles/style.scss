@@ -4,10 +4,47 @@
     padding: 20px;
     display: flex;
     align-items: center;
+
     &__link {
         text-decoration: none;
         color: $white;
         margin: 0 10px;
         font-size: 18px;
+        @media (max-width: 767px) {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+    }
+
+    &.burger {
+        @media (max-width: 767px) {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            height: 100vh;
+            width: 100vw;
+            background-color: $red;
+        }
+    }
+
+    &__close-button {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        background: rgba($lightGray, 0.3);
+        height: 40px;
+        width: 40px;
+        border-radius: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 767px) {
+        display: none;
     }
 }

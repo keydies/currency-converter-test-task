@@ -15,4 +15,8 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
     }
+
+    @media (max-width: 767px) {
+        margin-right: 0;
+    }
 }

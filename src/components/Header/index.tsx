@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import { RouteNames } from '../../router';
+import { Burger } from '../Burger';
 
 import { Navigation } from '../Navigation';
 
@@ -14,6 +15,7 @@ export const Header = () => {
                     Currency Converter
                 </Link>
             </div>
+            <Burger />
             <Navigation />
         </header>
     );

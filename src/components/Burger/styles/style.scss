@@ -1,0 +1,10 @@
+.burger {
+    display: none;
+    width: 80px;
+
+    @media (max-width: 767px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

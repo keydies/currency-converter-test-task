@@ -2,11 +2,11 @@ import Dropdown from 'react-dropdown';
 
 import { useAppDispatch, useTypedSelector } from '../../hooks/redux';
 
+import { RatesThunks } from '../../app/thunks';
 import { RatesActionCreators } from '../../app/actions/rates-ac';
 
 import 'react-dropdown/style.css';
 import './styles/style.scss';
-import { RatesThunks } from '../../app/thunks';
 
 export const CodeDropdown = () => {
     const currencyRates = useTypedSelector((state) => state.ratesReducer.currency_codes);
